@@ -1,4 +1,4 @@
-public class Hash_Map {
+public class GenericQ2 {
 	public static void main(String[] args)
 	{
 		HashMap<Integer,Double> map=new HashMap<Integer,Double>();
