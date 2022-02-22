@@ -23,7 +23,7 @@ class Employees
 }
 
 
-public class Test_Hash {
+public class GenericQ1 {
 	public static void main(String[] args)
 	{
 		Employees e1=new Employees(421,"Madhu",43000,"sales");
