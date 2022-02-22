@@ -28,7 +28,7 @@ public class Test_Hash {
 	{
 		Employees e1=new Employees(421,"Madhu",43000,"sales");
 		Employees e2=new Employees(525,"dhanu",45000,"marketing");
-		Employees e3=new Employees(410,"eswar",50000,"IT");
+		Employees e3=new Employees(410,"Eswar",50000,"IT");
 		Set<Employees> employees= new HashSet<>();
 		employees.add(e1);
 		employees.add(e2);
