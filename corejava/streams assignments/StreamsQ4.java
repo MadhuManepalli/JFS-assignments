@@ -43,7 +43,7 @@ class Transaction {
                 '}';
     }
 }
-public class StreamQ4 {
+public class StreamsQ4 {
     public static List<Transaction> sortTransactions(List <Transaction> transactions) {
         List<Transaction> sortedTrans= new ArrayList<>();
         sortedTrans=transactions.stream()
