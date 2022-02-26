@@ -1,5 +1,5 @@
 class Generics<M>{
-	public M[] swap(T[] a, int i, int j) {
+	public M[] swap(M[] a, int i, int j) {
         M temp = a[i];
         a[i] = a[j];
         a[j] = temp;
