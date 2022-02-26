@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class GenericQ2 {
 	public static void main(String[] args)
 	{
