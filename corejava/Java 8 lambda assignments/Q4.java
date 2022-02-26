@@ -28,11 +28,11 @@ public class Q4 {
     public static void main(String[] args) {
      
         ArrayList<String> employeeList = new ArrayList<>();
-        employeeList.add("Hema");
-        employeeList.add("Devi");
-        employeeList.add("Alagarasan");
-        employeeList.add("Paval");
-        employeeList.add("Iman");
+        employeeList.add("Madhu");
+        employeeList.add("Dhanu");
+        employeeList.add("Eswar");
+        employeeList.add("Nutan");
+        employeeList.add("Naidu");
 
         Q4 LambdaQ4 = new Q4();
         System.out.println(LambdaQ4.removeOddLength(employeeList));
