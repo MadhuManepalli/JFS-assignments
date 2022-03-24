@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id ="Adress" class = "springQ7.Adress" name = "Adress1">
+        <constructor-arg value="kalagampudi"/>
+        <constructor-arg value="west godavari"/>
+        <constructor-arg value="Andhrapradesh"/>
+        <constructor-arg value="534268"/>
+        <constructor-arg value="India"/>
+    </bean>
+    <bean id ="Customer0" class = "springQ7.Customer">
+        <property name="Customerid" value="1"></property>
+        <property name="Customername" value="Madhu"  ></property>
+        <property name="CustomerContact" value="7095001796"></property>
+        <property name="adress" value="#{Adress1}"></property>
+    </bean>
+    <bean id ="Customer1" class = "springQ7.Customer">
+        <property name="Customerid" value="#{Customer0.Customerid +1}"></property>
+        <property name="Customername" value="Dhanu"  ></property>
+        <property name="CustomerContact" value="8106018644"></property>
+        <property name="adress" value="#{Adress1}"></property>
+    </bean>
+</beans>
