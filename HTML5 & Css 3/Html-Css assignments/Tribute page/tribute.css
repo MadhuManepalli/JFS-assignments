@@ -1,0 +1,16 @@
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(img/flag.jpg);
+    background-size: cover;
+    background: opacity 0.2;
+}
+img{
+    border: 1px solid black;
+
+}
